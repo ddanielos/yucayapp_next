@@ -1,0 +1,8 @@
+esta es el json para crear un suscriptor al newsletter por POST:
+
+{
+  "data":{
+    "Name": "Dany Daniel",
+    "email": "dany@correo.com"
+  }
+}
