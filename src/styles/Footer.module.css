@@ -1,0 +1,51 @@
+.footerContainer{
+  margin-top: 80px;
+  color: var(--color_principal);
+}
+
+.footerContainer h2{
+  font-size: 5.6rem;
+  text-transform: uppercase;
+  font-family: var(--fuente2);
+  letter-spacing: 0.1rem;
+}
+.footerContainer p{
+  font-size: 1.3rem;
+  line-height: 38px;
+  font-family: var(--fuente1);
+  letter-spacing:0.1rem;
+}
+.containerBlockOne {
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+}
+.sectionBlockOne {
+  background-color: #f08165;
+  padding-top: 80px;
+  padding-left: 80px;
+  width: 50%;
+  height: 100%;
+}
+.sectionBlockTwo {
+  background-color: #d44620;
+  padding-top: 80px;
+  padding-left: 80px;
+  width: 50%;
+  height: 100%;
+}
+.sectionBlockThree {
+  background-color: #e06e46;
+  padding-top: 80px;
+  padding-left: 80px;
+  width: 50%;
+  height: 100%;
+}
+.sectionBlockFour {
+  background-color: #d44620;
+  padding-top: 80px;
+  padding-left: 80px;
+  width: 50%;
+  height: 100%;
+}

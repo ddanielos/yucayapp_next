@@ -1,0 +1,74 @@
+.aboutTitle {
+  margin-top: 90px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 87px;
+  font-family: var(--fuente2);
+  color: var(--color_terciario);
+  text-align: center;
+  -webkit-text-stroke: 2.5px var(--color_terciario);
+  letter-spacing:0.2rem;
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: row;
+  height: 550px;
+}
+.aboutUs {
+  color: var(--color_principal);
+  background-color: var(--color_secundario);
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.what {
+  color: var(--color_principal);
+  background-color: var(--color_cuaternario);
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.parrafo {
+  width: 500px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.parrafo h2{
+    text-transform: uppercase;
+    font-family: var(--fuente2);
+    font-size:2.5rem;
+    font-weight:900;
+    letter-spacing:0.2rem;
+    padding-bottom:1.3rem;
+}
+.parrafo p{
+    font-family: var(--fuente1);
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    line-height: 30px;
+    padding-top: 2rem;
+    text-align: justify;
+}
+
+.sectionLogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: -350px;
+}
+
+.logo {
+  margin: auto;
+}

@@ -1,0 +1,29 @@
+.blogUpper {
+    background-color: var(--color_secundario);
+    height: 170px;
+    padding-bottom: 100px;
+}
+.blogHeaderContainer {
+    background-color: var(--color_secundario);
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.blogTitleContainer {
+    border: 8px solid var(--color_principal);
+    display: flex;
+    align-items: center;
+}
+.blogTitleContainer img{
+        width: 150px;
+}
+.blogHeaderTitle {
+    font-family: var(--fuente2);
+    color: var(--color_principal);
+    padding-right: 20px;
+    font-size: 2.5rem;
+}

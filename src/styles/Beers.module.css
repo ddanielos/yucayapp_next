@@ -1,0 +1,13 @@
+.listOfBeers {
+    display: inline-block;
+    background-color: var(--color_principal);
+}
+.upper {
+    background-color: var(--color_terciario);
+    height: 170px;
+}
+.title {
+    font-family: var(--fuente2);
+    color: var(--color_secundario);
+    text-align: center;
+}

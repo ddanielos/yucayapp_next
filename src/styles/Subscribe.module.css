@@ -1,0 +1,41 @@
+.subscribeContainer {
+  margin: 0px;
+  padding: 30px;
+
+}
+.subscribeContainer form{
+  margin: auto;
+  width: 70%;
+  /* border: 1px solid white; */
+  padding: 0px;
+}
+
+.subscribeContainer input {
+  margin-bottom: 15px;
+  padding-left: 7px;
+  height: 45px;
+  width: 70%;
+  border: 1px solid #ccc !important;
+  border-radius: 4px;
+  font-size: 22.5px;
+  font-family: Roboto Mono;
+  color: black;
+  resize: vertical;
+
+  /* width: 60%; */
+  /* float: left; */
+}
+
+.subscribeContainer button{
+  height: 50px;
+  width: 70%;
+  font-size: 22.5px;
+  background-color: #d44620;
+  color: #f4efe2;
+  border-color: #f4efe2;
+}
+
+.subscribeContainer button:hover {
+  background-color: #d8532e;
+  cursor: pointer;
+}
