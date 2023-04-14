@@ -11,7 +11,7 @@
   left: 0;
   right: 0;
   padding: 20px 0px;
-  background-color: rgba(244, 239, 226, 0.95);
+  background-color: rgba(244, 239, 226, 0.98);
   visibility: visible;
   position: initial;
   opacity: 1;
@@ -57,18 +57,22 @@
   padding-bottom: 5px;
   display: inline-block;
   vertical-align: middle;
+  
+  opacity: 0.5;
 }
-
 .menuCenter {
   margin-left: auto;
   margin-right: auto;
 }
 .menuCenter img {
-  /* width: 141px;
-  height: 106px; */
   display: block;
   margin: auto;
 }
 .menuCenter img:hover {
   cursor: pointer;
+}
+.menuDisabled {
+  pointer-events: none !important;
+  cursor:default !important;
+  color: gray !important;
 }

@@ -1,10 +1,7 @@
-// import React from 'react';
-// import Ave from '../assets/static/img/ave.png';
-// import Blandas from '../assets/static/img/blandas.png';
-// import Proceso from '../assets/static/img/proceso.png';
-// import '../assets/styles/styles.styl';
 import Image from 'next/image';
 import styles from '../styles/Banner.module.css'
+
+import Link from 'next/link';
 
 const Banner = () => {
    return(
@@ -19,7 +16,10 @@ const Banner = () => {
                <div className={styles.bannerCenter}>
                   <div className={styles.bannerCenterContainer}>
                      <p className={styles.frases}>{`ch'alla!`}</p>
-                     <p className={styles.todas}>Todas las cervezas</p>
+                     {/* <button className={styles.todas}>Todas las cervezas</button> */}
+                     <Link href="/beers">
+                        <p className={styles.todas}>Todas las cervezas</p>
+                     </Link>
                      <p className={styles.frases}>Apoya negocios locales</p>
                   </div>
                </div>

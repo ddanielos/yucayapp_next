@@ -44,6 +44,10 @@
   border: 8px solid var(--color_principal);
   margin-top: -35px;
   letter-spacing:0.2rem;
+  cursor: pointer;
+}
+.subTitle:hover{
+  background-color: var(--color_terciario_hover);
 }
 
 .bannerHashtag {

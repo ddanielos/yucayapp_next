@@ -1,13 +1,20 @@
+'use client'
 import Image from 'next/image';
 import styles from '../styles/Bar.module.css';
 
 const Bar = () => {
+  const handleWhatsAppClick = () => {
+    const message = encodeURIComponent('Hola, ¿cómo estás? deseo hacer un pedido de cervezas Yucay Brewey,');
+    const phoneNumber = '+51913165855'; // Reemplaza esto con el número de teléfono de destino
+    const url = `https://wa.me/${phoneNumber}?text=${message}`;
+    window.open(url, '_blank');
+  }
   return(
     <>
       <div className={styles.Container}>
         <div className={styles.itemCard}>
           <p className={styles.title}>Delivery</p>
-          <p className={styles.subTitle}>Pide Ahora</p>
+          <p onClick={handleWhatsAppClick} className={styles.subTitle}>Pide Ahora</p>
         </div>
         <div className={styles.spaceBetween}></div>
         <div className={styles.itemCard}>

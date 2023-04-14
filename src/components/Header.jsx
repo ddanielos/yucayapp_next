@@ -10,7 +10,7 @@ const Header = () => {
                <Link href="/beers">
                   <li>Nuestras Cervezas</li>
                </Link>
-               <Link href="#">
+               <Link href="/about">
                   <li>Sobre Nosotros</li>
                </Link>
             </ul>
@@ -25,16 +25,16 @@ const Header = () => {
                      Blog
                   </li>
                </Link>
-               <Link href="#"><li>Contacto</li></Link>
-               <Link href="#">
-                  <li>
+               <Link href="/contacto"><li>Contacto</li></Link>
+               {/* <Link href="#"> */}
+                  <li className={styles.menuDisabled}>
                         Login
-                     <Image className={styles.liIcon} src="/static/img/user.png" alt="" width={31} height={29}/>
+                     <Image src="/static/img/user.png" alt="" width={31} height={29}/>
                   </li>
-               </Link>
-               <Link href="#">
-                  <li className={styles.li}><Image className={styles.liIcon} src="/static/img/sale.png" alt="" width={31} height={35}/></li>
-               </Link>
+               {/* </Link> */}
+               {/* <Link href="#"> */}
+                  <li className={`${styles.li} ${styles.menuDisabled}`}><Image src="/static/img/sale.png" alt="" width={31} height={35}/></li>
+               {/* </Link> */}
             </ul>
          </nav>
       </div>
