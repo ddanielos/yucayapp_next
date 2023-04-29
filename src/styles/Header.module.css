@@ -35,6 +35,7 @@
   display: flex;
   justify-content: center;
   margin: 0;
+  
 }
 .containerHeader li {
   padding-left: 1.5em;
@@ -75,4 +76,20 @@
   pointer-events: none !important;
   cursor:default !important;
   color: gray !important;
+}
+
+@media (max-width: 768px) {
+  .containerHeader {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+  .containerHeader ul{
+    display: none;
+  }
+  .containerHeader a {
+    margin:auto;
+  }
 }
